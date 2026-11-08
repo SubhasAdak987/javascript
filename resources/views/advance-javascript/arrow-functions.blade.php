@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AdvanceJS Arrow Functions</title>
+</head>
+<body>
+    <h2>Arrow Functions</h2>
+    <p>It's a shorter way to write a Function in <b>JS</b></p>
+    <script src="js/adjs/arrow-functions.obf.js"></script>
+</body>
+</html>

@@ -115,4 +115,10 @@ route::get('/adda',function(){return view ('advance-javascript.destructuring-arr
 //(AdvanceJS Destructuring Object)
 route::get('/addo',function(){return view ('advance-javascript.destructuring-object');});
 
+//(AdvanceJS OOP Introduction)
+route::get('/adoopi',function(){return view ('advance-javascript.oop-introduction');});
+
+//(AdvanceJS OOP Inheritance)
+route::get('/adoopin',function(){return view ('advance-javascript.oop-inheritance');});
+
 //***********************//

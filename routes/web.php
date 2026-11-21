@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -121,4 +122,19 @@ route::get('/adoopi',function(){return view ('advance-javascript.oop-introductio
 //(AdvanceJS OOP Inheritance)
 route::get('/adoopin',function(){return view ('advance-javascript.oop-inheritance');});
 
+//(AdvanceJS Fetch API)
+Route::controller(UserController::class)->group(function () {
+    Route::get('/students','index');
+    
+    Route::get('/students/data','getAll');
+
+    Route::post('/students','store');
+    
+    Route::put('/students/{id}','update');
+    
+    Route::delete('/students/{id}','destroy');
+});
+
+//(AdvanceJS Async & Await)
+route::get('/adasaw',function(){return view ('advance-javascript.async_await');});
 //***********************//
